@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%; 
+    background-color: black;
+} 
+
+
+
+.header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+} 
+
+#form-id1{
+    color: aliceblue;
+    /* margin-left: 200px; */
+}
+
+.info{
+    margin-left: 20px;
+}
+.inputs{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.class-container{
+    display: flex;
+} 
+
+.graph-container{
+    /* position: relative; */
+    margin-top:20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    color:black;
+    /* background-color: aqua; */
+} 
+
+.block{
+    /* transform: rotate(180deg);  */
+    /* margin-top: 100px; */
+    position: relative;
+    margin-right:10px; /* Add margin for spacing between blocks */
+    align-self: flex-end; /* Align each block to the baseline */ 
+    transform-style: preserve-3d;
+    transition: transform 0.5s, background-color 0.5s;
+} 
+
+.block .value {
+    position: absolute;
+    top: -25px; /* Adjust this value to position the text as desired */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    pointer-events: none; /* This prevents the value from blocking interactions with the block */
+}
+
+.conclusion{
+    font-size: large;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* color: white; */
+}
